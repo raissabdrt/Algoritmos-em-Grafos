@@ -1,0 +1,45 @@
+============================================================
+RELATÓRIO FINAL DA SIMULAÇÃO - LABIRINTO DE CRETA
+============================================================
+
+INFORMAÇÕES DO LABIRINTO:
+- Arquivo de entrada: labirinto.txt
+- Vértices: 5
+- Arestas: 6
+- Entrada: V0
+- Saída: V4
+- Posição inicial do Minotauro: V2
+- Alcance de percepção: 3
+- Tempo máximo: 20
+
+RESULTADO FINAL:
+O PRISIONEIRO FOI CAPTURADO E MORREU PELO MINOTAURO!
+
+INFORMAÇÕES DE TEMPO:
+- Tempo máximo: 20
+- Tempo restante: 19
+- Passos executados: 1
+
+CAMINHO DO PRISIONEIRO:
+V0 → V2
+- Total de vértices visitados: 2
+
+INFORMAÇÕES DA PERSEGUIÇÃO:
+- Detecção ocorreu no passo: 1
+- Encontro ocorreu no passo: 1
+- Duração da perseguição: 0 passos
+
+============================================================
+ANÁLISE DE EFICIÊNCIA DOS ALGORITMOS
+============================================================
+
+ALGORITMOS IMPLEMENTADOS:
+1. DIJKSTRA - O((V+E)logV) - Perseguição inteligente do Minotauro
+2. Estratégia de Backtracking - Exploração com novelo de lã do Prisioneiro
+3. BFS/DFS - Verificação de conectividade e caminhos
+
+EFICIÊNCIA DA SOLUÇÃO:
+- Complexidade temporal: O((V+E)logV) para perseguição
+- Complexidade espacial: O(V+E) para representação do grafo
+- Escalabilidade: Adequada para labirintos de tamanho considerável
+- Uso ótimo de estruturas: PriorityQueue, HashMap, Stack
